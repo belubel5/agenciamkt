@@ -1362,6 +1362,7 @@ label.error{
 
 .slider-title{
   font-weight: 700;
+  font-size: 35px !important;
 }
 
 .slider-text{
@@ -1675,7 +1676,7 @@ label.error{
   width: 100%;
   padding: 0 2em;
   text-align:center;
-  -webkit-transform:translateY(-50%));
+  -webkit-transform:translateY(-50%);
   -ms-transform:translateY(-50%);
   transform:translateY(-50%);
   -webkit-transition: all  0.3s ease-in;
