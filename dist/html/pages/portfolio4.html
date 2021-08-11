@@ -3,7 +3,7 @@
 <head>
 <meta  charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mario. - Multipurpose HTML Template</title> 
+<title>Fede. - PCD (Programando Completamente Desnudo)</title>  
 
 <!-- Favicons -->
 <link rel="shortcut icon" href="favicon.png">
@@ -17,10 +17,9 @@
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet" media="screen">
 </head>
-<body class="comming-soon">
+<body>
   
     <!-- Loader -->
-
     
     <div class="loader">
       <div class="spinner">
@@ -60,7 +59,7 @@
                 <li><a href="home-creative.html">Creative</a></li>
               </ul>
             </li>
-            <li class="active">
+            <li>
               <a href="#">Pages</a>
               <ul>
                 <li>
@@ -68,13 +67,11 @@
                   <ul>
                     <li><a href="about.html">About 1</a></li>
                     <li><a href="about2.html">About 2</a></li>
-                    
                   </ul>
                 </li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="comming-soon.html">Comming-soon</a></li>
-                <li class="active"><a href="404.html">404</a></li>
-                
+                <li><a href="404.html">404</a></li>
               </ul>
             </li>
             <li>
@@ -92,13 +89,13 @@
                 <li><a href="blog-post.html">Blog details</a></li>
               </ul>
             </li>  
-            <li>
+            <li class="active">
               <a href="portfolio.html">Portfolio</a>
               <ul>
                 <li><a href="portfolio.html">Portfolio 1</a></li>
                 <li><a href="portfolio2.html">Portfolio 2</a></li>
                 <li><a href="portfolio3.html">Portfolio 3</a></li>
-                <li><a href="portfolio4.html">Portfolio 4</a></li>
+                <li class="active"><a href="portfolio4.html">Portfolio 4</a></li>
                 <li><a href="portfolio-details.html">Portfolio Details 1</a></li>
                 <li><a href="portfolio-details2.html">Portfolio Details 2</a></li>
               </ul>
@@ -128,19 +125,19 @@
                   <li><a href="home-creative.html">Creative</a></li>
                 </ul>
               </li>
-              <li class="active">
+              <li>
                 <a href="#">Pages</a>
                 <ul>
                   <li>
                     <a href="about.html">About</a>
                     <ul>
                       <li><a href="about.html">About 1</a></li>
-                      <li><a href="about2.html">About 2</a></li> 
+                      <li><a href="about2.html">About 2</a></li>
                     </ul>
                   </li>
                   <li><a href="services.html">Services</a></li>
                   <li><a href="comming-soon.html">Comming-soon</a></li>
-                  <li class="active"><a href="404.html">404</a></li>
+                  <li><a href="404.html">404</a></li>
                 </ul>
               </li>
               <li>
@@ -158,13 +155,13 @@
                   <li><a href="blog-post.html">Blog details</a></li>
                 </ul>
               </li>  
-              <li>
+              <li class="active">
                 <a href="portfolio.html">Portfolio</a>
                 <ul>
                   <li><a href="portfolio.html">Portfolio 1</a></li>
                   <li><a href="portfolio2.html">Portfolio 2</a></li>
                   <li><a href="portfolio3.html">Portfolio 3</a></li>
-                  <li><a href="portfolio4.html">Portfolio 4</a></li>
+                  <li class="active"><a href="portfolio4.html">Portfolio 4</a></li>
                   <li><a href="portfolio-details.html">Portfolio Details 1</a></li>
                   <li><a href="portfolio-details2.html">Portfolio Details 2</a></li>
                 </ul>
@@ -184,20 +181,100 @@
     
     <!-- Home -->
     
-    <main class="main main-inner main-404 jarallax" data-jarallax='{"speed": 0.7}'>
+    <main class="main main-inner main-portfolio jarallax" data-jarallax='{"speed": 0.7}'>
       <div class="container">
         <div class="opener">
-          <h1>Oops... You got lost.</h1>
-          <div class="row">
-            <p class="lead col-md-6 col-md-offset-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse non earum consectetur, ratione.</p>
-          </div>
-          <a href="home-agency.html" class="btn">back home</a>
+          <h1>Our <i>Portfolio</i></h1>
+          <p class="lead col-md-6 col-md-offset-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse non earum consectetur, ratione.</p>
         </div>
       </div>
     </main>
 
     <div class="content"> 
-  
+
+      <!-- Portfolio -->
+
+      <section class="porftolio pb-base">
+        <div class="container">
+          <ul class="filter filter2">
+            <li class="active"><a href="#" data-filter="*">All</a></li>
+            <li><a href="#" data-filter=".digital">Digital</a></li>
+            <li><a href="#" data-filter=".branding">Branding</a></li>
+            <li><a href="#" data-filter=".marketing">Marketing</a></li>
+            <li><a href="#" data-filter=".video">Video</a></li>
+          </ul>
+          <div class="row-space">
+          <div class="isotope isotope-space js-gallery">
+            <div class="isotope-item w50 digital">
+              <a href="img/portfolio/1-637x930.jpg" title="Stationery Design">
+                <figure class="showcase-item">
+                  <div class="showcase-item-thumbnail"><img alt="" src="img/portfolio/1-637x930.jpg"></div>
+                  <figcaption class="showcase-item-hover hover-blue">
+                    <div class="showcase-item-info">
+                      <div class="showcase-item-category">Stationery Design</div>
+                      <div class="showcase-item-title">Branding</div>
+                      <i class="ion-ios-plus-empty"></i>
+                    </div>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="isotope-item w50 branding">
+              <a href="img/portfolio/2-637x930.jpg" title="Stationery Design">
+                <figure class="showcase-item">
+                  <div class="showcase-item-thumbnail"><img alt="" src="img/portfolio/2-637x930.jpg"></div>
+                  <figcaption class="showcase-item-hover hover-blue">
+                    <div class="showcase-item-info">
+                      <div class="showcase-item-category">Stationery Design</div>
+                      <div class="showcase-item-title">Branding</div>
+                      <i class="ion-ios-plus-empty"></i>
+                    </div>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>  
+            <div class="isotope-item w50 marketing">
+              <a href="img/portfolio/3-637x930.jpg" title="Stationery Design">
+                <figure class="showcase-item">
+                  <div class="showcase-item-thumbnail"><img alt="" src="img/portfolio/3-637x930.jpg"></div>
+                  <figcaption class="showcase-item-hover hover-blue">
+                    <div class="showcase-item-info">
+                      <div class="showcase-item-category">Stationery Design</div>
+                      <div class="showcase-item-title">Branding</div>
+                      <i class="ion-ios-plus-empty"></i>
+                    </div>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="isotope-item w50 video">
+              <a href="img/portfolio/4-637x930.jpg" title="Stationery Design">
+                <figure class="showcase-item">
+                  <div class="showcase-item-thumbnail"><img alt="" src="img/portfolio/4-637x930.jpg"></div>
+                  <figcaption class="showcase-item-hover hover-blue">
+                    <div class="showcase-item-info">
+                      <div class="showcase-item-category">Stationery Design</div>
+                      <div class="showcase-item-title">Branding</div>
+                      <i class="ion-ios-plus-empty"></i>
+                    </div>
+                  </figcaption>
+                </figure>
+              </a>
+            </div> 
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Banner -->
+
+      <section class="promo bg-primary section-sm">
+        <div class="container rel-1">
+          <h2 class="promo-title text-white">Hey! Build Your Own <i>Website Now!</i></h2>
+          <a href="#request" data-toggle="modal" class="btn btn-b-white">Get start now</a>
+        </div>
+      </section>
+
       <!-- Footer -->
 
       <footer id="footer" class="footer bg-dark">     
