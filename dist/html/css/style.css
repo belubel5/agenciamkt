@@ -715,11 +715,11 @@ label.error{
 }
 
 .bg-dark{
-  background-color:#222222;
+  background-color:#000000;
 }
 
 .bg-primary{
-  background: #425cbb;
+  background: #000000;
 }
 
 .bg-black{
@@ -727,7 +727,7 @@ label.error{
 }
 
 .bg-brown{
-  background-color: #c5a47e;
+  background-color: #e9e1e0;
 }
 
 .bg-light{
@@ -849,7 +849,7 @@ label.error{
 
 .social-list li a:hover{
   text-decoration: none;
-  color:#425cbb;
+  color: #3d5553;;
 }
 
 
@@ -1365,7 +1365,7 @@ label.error{
 
 .slider-title{
   font-weight: 700;
-  font-size: 35px !important;
+  font-size: 50px !important;
 }
 
 .slider-text{
@@ -1895,7 +1895,7 @@ img.mfp-img{
 .progress-bar{
   position: relative;
   border-radius: 4px;
-  background-color: #425cbb;
+  background-color: #ccb4b4;
   box-shadow: none;
   width: 20%;
 }
@@ -2573,7 +2573,7 @@ img.mfp-img{
 
 .address-panel-2{
   padding:5em 15px;
-  background-color: rgba(66,92,187,0.9);
+  background-color:#3d5553;
   color:#fff;
 }
 
@@ -2950,9 +2950,6 @@ img.mfp-img{
     float: right;
   }
 }
-
-
-
 
 /* 18.2 Min width 992px */
 
